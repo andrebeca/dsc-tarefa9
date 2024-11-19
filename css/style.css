@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    min-height: 100vh;
+    max-width: 80%;
+    margin: auto;
+    align-content: center;
+}
+.container * {
+    border-radius: 8px;
+}
+.header, .footer {
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.footer {
+    box-shadow: #485ebb 3px 3px 6px 0px inset, #485ebb 0px -4px 7px 5px inset;
+    background-color: #526bdc;
+}
+.header {
+    box-shadow: #4471b5 3px 3px 6px 0px inset, #3c75ca 0px -4px 7px 5px inset;
+    background-color: #4991fa;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    flex: 1;
+    background-color: #51b174;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 10px 0;
+    box-shadow: #42885c 3px 3px 6px 0px inset, #42885c 0px -4px 7px 5px inset;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.item {
+    background-color: #408b5c;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: #3a704e 3px 3px 6px 0px inset, #3a704e 0px -4px 7px 5px inset;
+}
+
+p {
+    grid-column: 1 / 4;
+    color: #fff;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f46a53;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: #ad4f3f 3px 3px 6px 0px inset, #ad4f3f 0px -4px 7px 5px inset;
+    margin: 10px 0 10px 5px;
+}
+.rodape p {
+    margin: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+.rodape {
+    background-color: #526bdc;
+    margin-top: 50px;
+    padding: 15px 0px;
+}
